@@ -1,5 +1,154 @@
 {
-  "Version": 78,
+  "Name": "Fluvoxamine-Mexiletine-DDI",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Japanese",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233e-06,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099e-05,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "Japanese",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      }
+    }
+  ],
   "Individuals": [
     {
       "Name": "Japanese",
@@ -17,123 +166,9 @@
           "Unit": "year(s)"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP1A2|Reference concentration",
-          "Value": 1.8,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (liver)",
-          "Value": 39.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2D6|Reference concentration",
-          "Value": 0.4,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2D6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2D6|t1/2 (liver)",
-          "Value": 51.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.00768702814
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.768702814
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0208304736
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0223404255
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
-          "Value": 0.0909402883
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          }
-        },
-        {
-          "Name": "CYP2D6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2D6"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP1A2|Human|Japanese",
+        "CYP2D6|Human|Japanese"
       ]
     }
   ],
@@ -247,7 +282,8 @@
             {
               "Name": "Intrinsic clearance",
               "Value": 0.0,
-              "Unit": "l/min"
+              "Unit": "l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -270,7 +306,8 @@
             {
               "Name": "Intrinsic clearance",
               "Value": 0.0,
-              "Unit": "l/min"
+              "Unit": "l/min",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -291,17 +328,20 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (experiment)",
-              "Value": 0.5
+              "Value": 0.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "Lipophilicity (experiment)",
               "Value": 2.3770265519,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "Plasma clearance",
               "Value": 0.0,
-              "Unit": "ml/min/kg"
+              "Unit": "ml/min/kg",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -322,12 +362,14 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (experiment)",
-              "Value": 0.5
+              "Value": 0.5,
+              "ValueOrigin": {}
             },
             {
               "Name": "Plasma clearance",
               "Value": 0.0,
-              "Unit": "ml/min/kg"
+              "Unit": "ml/min/kg",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -438,7 +480,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.2322894625E-05,
+              "Value": 1.2322894625e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -467,7 +509,8 @@
             {
               "Name": "In vitro CL/recombinant enzyme",
               "Value": 0.5382573259,
-              "Unit": "µl/min/pmol rec. enzyme"
+              "Unit": "µl/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -479,7 +522,8 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 55.0,
-              "Unit": "nmol/min/pmol rec. enzyme"
+              "Unit": "nmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -614,20 +658,24 @@
         {
           "Name": "Dissolution time (50% dissolved)",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.92
+          "Value": 0.92,
+          "ValueOrigin": {}
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -653,11 +701,13 @@
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.92
+          "Value": 0.92,
+          "ValueOrigin": {}
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -678,17 +728,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -697,16 +750,19 @@
             {
               "Name": "Start time",
               "Value": 168.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -721,17 +777,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 38.65,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -758,17 +817,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -777,41 +839,48 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 192.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Mexiletine 200mg PO on day 8|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Mexiletine 200mg PO on day 8|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -865,6 +934,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP1A2-Wei 1991",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Mexiletine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -917,13 +993,6 @@
           "Title": "Mexiletine 166.62 mg po",
           "OriginText": "Mexiletine-Fluvoxamine-DDI\nMexiletine 166.62 mg po\n2020-08-03 10:35"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP1A2-Wei 1991",
-          "MoleculeName": "CYP1A2",
-          "CompoundName": "Mexiletine"
-        }
       ]
     },
     {
@@ -939,17 +1008,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -958,116 +1030,138 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 192.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine maleate 50mg  BID 7d|Mexiletine tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Mexiletine 200mg PO on day 8|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Mexiletine 200mg PO on day 8|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1158,6 +1252,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP1A2-Wei 1991",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Mexiletine"
+        },
+        {
+          "Name": "CYP1A2-Iga2016_Tab2_CAF",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Fluvoxamine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -1210,18 +1316,6 @@
           "Title": "Mexiletine 166.62 mg po Fluvoxamine 50mg bid",
           "OriginText": "Mexiletine-Fluvoxamine-DDI\nMexiletine 166.62 mg po Fluvoxamine 50mg bid\n2020-08-03 10:40"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP1A2-Wei 1991",
-          "MoleculeName": "CYP1A2",
-          "CompoundName": "Mexiletine"
-        },
-        {
-          "Name": "CYP1A2-Iga2016_Tab2_CAF",
-          "MoleculeName": "CYP1A2",
-          "CompoundName": "Fluvoxamine"
-        }
       ]
     }
   ],
@@ -1231,47 +1325,58 @@
       "ExtendedProperties": [
         {
           "Name": "File",
-          "Value": "Data_extract_Mexiletine"
+          "Value": "Data_extract_Mexiletine",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kusumoto2001"
+          "Value": "Kusumoto2001",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Mexiletine"
+          "Value": "Mexiletine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Study Id",
-          "Value": "Kusumoto2001"
+          "Value": "Kusumoto2001",
+          "Type": "String"
         },
         {
           "Name": "Gender",
-          "Value": "m"
+          "Value": "m",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": 166.62
+          "Value": 166.62,
+          "Type": "Double"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Patient Id",
-          "Value": "Mexiletine"
+          "Value": "Mexiletine",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -1281,20 +1386,17 @@
             {
               "Name": "SD",
               "QuantityInfo": {
-                "Name": "SD",
                 "Path": "Kusumoto2001.Mexiletine.m.166.62.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|SD"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2018-10-15T14:57:47.3893354+02:00",
-                "Source": "Data_extract_Mexiletine.Kusumoto2001.1.SD",
                 "MolWeight": 179.2588
               },
               "Values": [
                 0.114117414,
                 "NaN",
-                0.120707311,
+                0.12070731,
                 0.1217165,
                 0.119008675,
                 0.09778632,
@@ -1305,22 +1407,19 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "CentralMeasure",
             "Path": "Kusumoto2001.Mexiletine.m.166.62.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2018-10-15T14:57:47.3893354+02:00",
-            "Source": "Data_extract_Mexiletine.Kusumoto2001.1.CentralMeasure",
             "MolWeight": 179.2588
           },
           "Values": [
-            0.255248427,
+            0.25524843,
             0.5206811,
-            0.447571278,
+            0.44757128,
             0.3684835,
-            0.314917415,
+            0.31491742,
             0.2152935,
             0.07192342
           ],
@@ -1331,15 +1430,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kusumoto2001.Mexiletine.m.166.62.po|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2018-10-15T14:57:47.3893354+02:00",
-          "Source": "Data_extract_Mexiletine.Kusumoto2001.1.Time"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           169.0,
@@ -1359,47 +1455,58 @@
       "ExtendedProperties": [
         {
           "Name": "File",
-          "Value": "Data_extract_Mexiletine"
+          "Value": "Data_extract_Mexiletine",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Kusumoto2001"
+          "Value": "Kusumoto2001",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Mexiletine"
+          "Value": "Mexiletine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Study Id",
-          "Value": "Kusumoto2001"
+          "Value": "Kusumoto2001",
+          "Type": "String"
         },
         {
           "Name": "Gender",
-          "Value": "m"
+          "Value": "m",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": 166.62
+          "Value": 166.62,
+          "Type": "Double"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Patient Id",
-          "Value": "Mexiletine+Fluvoxamine"
+          "Value": "Mexiletine+Fluvoxamine",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -1409,47 +1516,41 @@
             {
               "Name": "SD",
               "QuantityInfo": {
-                "Name": "SD",
                 "Path": "Kusumoto2001.Mexiletine+Fluvoxamine.m.166.62.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|SD"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2018-10-15T14:57:47.3893354+02:00",
-                "Source": "Data_extract_Mexiletine.Kusumoto2001.2.SD",
                 "MolWeight": 179.2588
               },
               "Values": [
-                0.216877446,
-                0.105804071,
+                0.21687745,
+                0.10580407,
                 0.05558896,
-                0.0872883648,
-                0.111115187,
+                0.087288365,
+                0.11111519,
                 0.07145957,
-                0.119029582
+                0.11902958
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
-            "Name": "CentralMeasure",
             "Path": "Kusumoto2001.Mexiletine+Fluvoxamine.m.166.62.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2018-10-15T14:57:47.3893354+02:00",
-            "Source": "Data_extract_Mexiletine.Kusumoto2001.2.CentralMeasure",
             "MolWeight": 179.2588
           },
           "Values": [
-            0.449451536,
+            0.44945154,
             0.5792735,
-            0.471714556,
-            0.447321683,
-            0.389444679,
-            0.297404945,
+            0.47171456,
+            0.44732168,
+            0.38944468,
+            0.29740494,
             0.1423663
           ],
           "Dimension": "Concentration (mass)",
@@ -1459,15 +1560,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kusumoto2001.Mexiletine+Fluvoxamine.m.166.62.po|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2018-10-15T14:57:47.3893354+02:00",
-          "Source": "Data_extract_Mexiletine.Kusumoto2001.2.Time"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           169.0,
